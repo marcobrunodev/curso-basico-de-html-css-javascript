@@ -4,17 +4,21 @@ header {
   margin-left: auto;
   margin-right: auto;
   padding-top: 4vh;
-  text-align: center;
+  text-align: justify;
 }
 
-.logo {
-  float: left;
-}
-
-.icon {
+.logo,
+.icon,
+.menu {
   display: inline-block;
 }
 
-.menu {
-  float: right;
+header::after {
+  content: "";
+  display: inline-block;
+  width: 100%;
+}
+
+p {
+  text-align: justify;
 }
