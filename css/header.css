@@ -25,12 +25,44 @@ header {
   position: absolute;
   width: 100%;
   height: 3px;
+  transform-origin: right center;
   background-color: #222;
 }
 
 .menu::after {
   right: 0;
   bottom: 0;
-  transform-origin: right center;
   transform: scaleX(0.42);
+}
+
+.menu:hover::before {
+  animation: small 550ms linear reverse infinite;
+}
+
+.menu:hover::after {
+  animation: big 550ms linear infinite;
+}
+
+@keyframes big {
+  33% {
+    transform: scaleX(0.33);
+  }
+  66% {
+    transform: scaleX(1.2);
+  }
+  100% {
+    transform: scaleX(0.42);
+  }
+}
+
+@keyframes small {
+  33% {
+    transform: scaleX(0.33);
+  }
+  66% {
+    transform: scaleX(1.2);
+  }
+  100% {
+    transform: scaleX(1);
+  }
 }
