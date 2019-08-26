@@ -1,4 +1,4 @@
-header {
+.header {
   display: flex;
   justify-content: space-between;
   max-width: 1110px;
@@ -14,7 +14,7 @@ header {
   height: 14px;
 }
 
-.menu span {
+.menu .content {
   display: block;
   text-indent: -9999px;
 }
