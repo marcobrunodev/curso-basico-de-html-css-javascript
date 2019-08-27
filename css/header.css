@@ -37,7 +37,7 @@
 }
 
 .menu:hover::after {
-  animation: big 100ms linear infinite;
+  animation: big 550ms linear infinite;
 }
 
 @keyframes coiso {
