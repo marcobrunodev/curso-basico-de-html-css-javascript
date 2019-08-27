@@ -1,0 +1,15 @@
+.featured .social {
+  display: flex;
+}
+
+.featured .icon {
+  width: 16px;
+}
+
+.featured .title {
+  font-size: 60px;
+  line-height: 1.166em;
+  letter-spacing: -1px;
+  font-weight: bold;
+  width: 540px;
+}
