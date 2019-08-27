@@ -2,6 +2,7 @@
   display: flex;
   justify-content: space-between;
   padding-top: 4vh;
+  margin-bottom: 126px;
 }
 
 .menu {
@@ -36,7 +37,16 @@
 }
 
 .menu:hover::after {
-  animation: big 550ms linear infinite;
+  animation: big 100ms linear infinite;
+}
+
+@keyframes coiso {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(180deg);
+  }
 }
 
 @keyframes big {

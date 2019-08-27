@@ -1,9 +1,7 @@
-.featured .social {
+.featured {
   display: flex;
-}
-
-.featured .icon {
-  width: 16px;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .featured .title {
@@ -12,4 +10,28 @@
   letter-spacing: -1px;
   font-weight: bold;
   width: 540px;
+}
+
+.featured .social {
+  display: flex;
+  align-self: flex-end;
+  width: 120px;
+  justify-content: space-between;
+}
+
+.featured .icon {
+  width: 16px;
+}
+
+.featured .wrapper-photo {
+  margin-top: 90px;
+}
+
+.featured .photo {
+  margin-bottom: 42px;
+}
+
+.featured .caption {
+  color: rgba(34, 34, 34, 0.7);
+  line-height: 1.555em;
 }
