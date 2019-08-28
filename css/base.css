@@ -1,4 +1,5 @@
 body {
   font-family: "Fira Sans", sans-serif;
   background-color: #f4f4f4;
+  min-width: 290px;
 }
