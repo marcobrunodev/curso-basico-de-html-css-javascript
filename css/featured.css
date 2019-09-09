@@ -41,6 +41,10 @@
 
 /* 0 - 800 pixel de tela */
 @media (max-width: 800px) {
+  .featured {
+    margin-bottom: 80px;
+  }
+
   .featured .title {
     width: 60vw;
     font-size: 54px;
