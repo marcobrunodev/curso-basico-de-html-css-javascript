@@ -13,7 +13,31 @@
 }
 
 .explore .item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 32%;
+}
+
+.explore .item::before {
+  content: "";
+  display: block;
+  width: 3.4vw;
+  height: 3.4vw;
+  background-color: #ffffff;
+  position: absolute;
+  min-width: 40px;
+  min-height: 40px;
+}
+
+.explore .item::after {
+  content: "";
+  border: 11px solid transparent;
+  border-top-width: 7px;
+  border-bottom-width: 7px;
+  border-left-color: #f96241;
+  position: absolute;
+  transform: translateX(25%);
 }
 
 .explore .photo {
@@ -67,5 +91,10 @@
   .explore .item {
     width: 100%;
     margin-bottom: 20px;
+  }
+
+  .explore .item::before {
+    width: 65px;
+    height: 65px;
   }
 }
