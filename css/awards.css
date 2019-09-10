@@ -1,0 +1,52 @@
+.awards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  position: relative;
+  margin-bottom: 200px;
+  padding-top: 62px;
+  border-top: 1px solid rgba(34, 34, 34, 0.2);
+}
+
+.award {
+  display: inline-flex;
+  flex-wrap: wrap;
+  max-width: 600px;
+  justify-content: space-between;
+  margin-bottom: 60px;
+}
+
+.awards .logo {
+  position: absolute;
+  top: 62px;
+  left: 0;
+}
+
+.awards .title {
+  font-size: 22px;
+  line-height: 32px;
+  font-weight: 500;
+}
+
+.awards .subtitle {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
+
+.awards .year {
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.awards .description {
+  box-sizing: border-box;
+  width: 100%;
+  padding-left: 265px;
+  padding-right: 100px;
+  font-size: 18px;
+  line-height: 28px;
+  opacity: 0.8;
+}
