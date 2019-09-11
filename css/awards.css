@@ -50,3 +50,41 @@
   line-height: 28px;
   opacity: 0.8;
 }
+
+@media (max-width: 880px) {
+  .awards > .award {
+    position: relative;
+    width: 70%;
+  }
+
+  .awards .title {
+    width: 100%;
+  }
+
+  .awards .year {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+
+  .awards .description {
+    padding-left: 0;
+  }
+}
+
+@media (max-width: 650px) {
+  .awards {
+    flex-direction: column;
+  }
+
+  .awards .award {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .awards .logo {
+    position: static;
+    width: 90px;
+    margin-bottom: 40px;
+  }
+}
