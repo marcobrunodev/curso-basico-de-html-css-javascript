@@ -1,0 +1,89 @@
+.wrapper-our-clients {
+  padding-top: 102px;
+  padding-bottom: 135px;
+  background-color: #fff;
+}
+
+.our-clients > .title {
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 50px;
+  letter-spacing: -1px;
+  float: left;
+}
+
+.our-clients > .subtitle {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 4px;
+  margin-bottom: 15px;
+}
+
+.our-clients > .description {
+  clear: right;
+  margin-bottom: 70px;
+}
+
+.our-clients > .subtitle,
+.our-clients > .description {
+  width: 445px;
+  float: right;
+}
+
+.our-clients > .clients {
+  clear: both;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media (max-width: 800px) {
+  .our-clients > .title,
+  .our-clients > .subtitle,
+  .our-clients > .description {
+    float: none;
+    width: auto;
+  }
+
+  .our-clients > .description {
+    width: 100%;
+  }
+}
+
+@media (max-width: 680px) {
+  .our-clients > .clients {
+    flex-wrap: wrap;
+  }
+
+  .our-clients .client {
+    display: flex;
+    justify-content: center;
+    width: 33%;
+  }
+
+  .our-clients .client:nth-child(n + 4) {
+    width: 50%;
+    margin-top: 40px;
+  }
+}
+
+@media (max-width: 380px) {
+  .our-clients .client {
+    width: 50%;
+  }
+
+  .our-clients .client:last-child {
+    width: 100%;
+  }
+}
+
+@media (max-width: 350px) {
+  .our-clients .client:nth-child(n) {
+    width: 100%;
+  }
+
+  .our-clients .client:not(:last-child) {
+    margin-bottom: 40px;
+  }
+}
