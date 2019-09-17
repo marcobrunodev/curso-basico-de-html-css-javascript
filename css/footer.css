@@ -28,6 +28,11 @@
   margin-right: 60px;
 }
 
+.footer .action {
+  color: inherit;
+  text-decoration: none;
+}
+
 .footer .email {
   box-sizing: border-box;
   background-color: #f5f4ff;
