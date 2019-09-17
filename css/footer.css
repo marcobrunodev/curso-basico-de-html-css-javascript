@@ -1,0 +1,46 @@
+.footer {
+  background-color: #515151;
+  color: #fff;
+  font-size: 18px;
+  padding-top: 60px;
+  padding-bottom: 35px;
+}
+
+.footer .first {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer .logo {
+  height: 23px;
+}
+
+.footer .list {
+  display: flex;
+}
+
+.footer .item {
+  line-height: 28px;
+}
+
+.footer .item:not(:last-child) {
+  margin-right: 60px;
+}
+
+.footer .email {
+  box-sizing: border-box;
+  background-color: #f5f4ff;
+  width: 170px;
+  height: 40px;
+  border: none;
+  padding: 0 0 0 20px;
+}
+
+.footer .button {
+  background-color: #c6b393;
+  color: #fff;
+  border: none;
+  width: 100px;
+  height: 40px;
+}
