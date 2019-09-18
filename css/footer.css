@@ -128,6 +128,25 @@
   }
 }
 
+@media (max-width: 590px) {
+  .footer .second {
+    display: block;
+  }
+
+  .footer .second .list {
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+
+  .footer .list .item:not(:last-child) {
+    margin-right: 0;
+  }
+
+  .footer .second .social {
+    justify-content: center;
+  }
+}
+
 @media (max-width: 510px) {
   .footer .first .list {
     flex-wrap: wrap;
