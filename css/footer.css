@@ -103,3 +103,46 @@
 .footer .social .action[href*="facebook"] {
   background-image: url(../img/icon-facebook-light.svg);
 }
+
+@media (max-width: 1080px) {
+  .footer .first {
+    flex-wrap: wrap;
+  }
+
+  .footer .first .newsletter {
+    text-align: right;
+    width: 100%;
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 740px) {
+  .footer .first .list {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 40px;
+  }
+  .footer .first .item:not(:last-child) {
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 510px) {
+  .footer .first .list {
+    flex-wrap: wrap;
+  }
+
+  .footer .first .item {
+    text-align: center;
+  }
+
+  .footer .first .item:nth-child(n + 1) {
+    width: 33%;
+    margin-bottom: 10px;
+  }
+
+  .footer .first .item:nth-child(n + 4) {
+    width: 50%;
+  }
+}
